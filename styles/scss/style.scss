@@ -1,0 +1,16 @@
+@import 'variables','mixins/breakpoint','placeholders';
+
+
+/* Settings of project */
+@import 'reset','default';
+
+/* Layouts */
+@import 'layout/l-mainLanding.scss';
+
+/* Modules */
+@import 'modules/_header.scss',
+'modules/l-mainLanding__sectionTexts',
+'modules/l-mainLanding__sectionVideo',
+'modules/_footer.scss';
+
+        

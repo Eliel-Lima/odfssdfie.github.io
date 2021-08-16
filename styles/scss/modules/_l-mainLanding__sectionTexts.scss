@@ -1,0 +1,44 @@
+.l-mainLanding__sectionTexts {
+   background-image: url('../../img/effectBalls.png');
+   background-size: 80px;
+
+    .l-mainLanding__textGroup {
+        padding-top: 100px;
+
+        .l-mainLanding__title {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 3.6rem;
+            margin-bottom: $global-margin / 2;
+            color: $white-primary;
+        }
+    
+        .l-mainLanding__subtitleParagraph {
+            font-size: 1.6rem;
+            color: $white-secundary;
+            margin-bottom: $global-margin / 2;
+
+        }
+
+        .l-mainLanding__buttonSubscribe {
+            background-color: $yellow-primary;
+            border: none;
+            padding: 25px;
+            margin: 0 auto;
+            color: $blue-primary;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+            font-size: 1.3rem;
+            border-radius: 50px;
+           
+        }
+
+    }
+
+    .l-mainLanding__videoGroup {
+        position: relative;
+        height: 200vh;
+        background-color: $blue-primary;     
+    
+    }
+
+}

@@ -1,0 +1,10 @@
+header {
+    width: 100%;
+    
+
+    @include for-size(phone-only) {
+        height: 250px;
+        background-image: url('../../img/waveTop-mobile.svg');
+        background-size: cover;
+    }
+}
